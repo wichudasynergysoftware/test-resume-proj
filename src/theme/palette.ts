@@ -24,7 +24,7 @@ export const palette: PaletteOptions = {
     dark: '#ffb800',
   },
   success: {
-    main: '#1BC300',
+    main: '#34353a',
     contrastText: '#fff',
     light: '#bbeab7',
   },

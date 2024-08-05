@@ -1,4 +1,4 @@
-import { Box, Button, Divider, Grid, Typography } from "@mui/material";
+import { Box, Chip, Divider, Grid, Typography } from "@mui/material";
 
 interface Props {
   title: string;
@@ -60,26 +60,29 @@ export default function Experience() {
         justifyContent={"center"}
       >
         <Grid item xs={12} sm={12} md={8} display={"flex"} gap={3}>
-          <Grid item>
-            <Button variant="contained">2022</Button>
+          <Grid item xs={3} sm={2} display={"flex"} justifyContent={"flex-end"}>
+            <Chip
+              color="success"
+              label="2022"
+              sx={{ border: "1px solid", borderColor: "secondary.main" }}
+            />
           </Grid>
           <Grid item flex={1}>
             <ExperienceBox
-              title={"Ubon Microtech Co., Ltd"}
-              subTitle="Developer"
+              title={"Final Year Project"}
+              subTitle="Full Stack"
               body={
                 <Grid container gap={2}>
                   <Grid item sx={{ textAlign: "justify" }}>
-                    1. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eos optio tempora doloremque sint totam explicabo architecto
-                    iure odio sed accusantium unde iste omnis facere quis
-                    doloribus, itaque blanditiis eum ipsa.
+                    - Developed a website for a clinic management system that
+                    can handle patient data, prescription data, income data and
+                    expense data. Details on patient appoinments patients
+                    recieving therapy keeping medical records among them.
                   </Grid>
                   <Grid item sx={{ textAlign: "justify" }}>
-                    2. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eos optio tempora doloremque sint totam explicabo architecto
-                    iure odio sed accusantium unde iste omnis facere quis
-                    doloribus, itaque blanditiis eum ipsa.
+                    <Typography variant="body2" color="secondary.main">
+                      Tools - Django, Python, MySql, Bootstrap
+                    </Typography>
                   </Grid>
                 </Grid>
               }
@@ -87,26 +90,34 @@ export default function Experience() {
           </Grid>
         </Grid>
         <Grid item xs={12} sm={12} md={8} display={"flex"} gap={3}>
-          <Grid item>
-            <Button variant="contained">2022</Button>
+          <Grid item xs={3} sm={2} display={"flex"} justifyContent={"flex-end"}>
+            <Chip
+              color="success"
+              label="2022 (4 months)"
+              sx={{ border: "1px solid", borderColor: "secondary.main" }}
+            />
           </Grid>
           <Grid item flex={1}>
             <ExperienceBox
-              title={"Ubon Microtech Co., Ltd"}
-              subTitle="Developer"
+              title={"Touch Technologies Co., Ltd (North East Region)"}
+              subTitle="Backend Developer"
               body={
                 <Grid container gap={2}>
-                  <Grid item sx={{ textAlign: "justify" }}>
-                    1. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eos optio tempora doloremque sint totam explicabo architecto
-                    iure odio sed accusantium unde iste omnis facere quis
-                    doloribus, itaque blanditiis eum ipsa.
+                  <Grid container sx={{ textAlign: "justify" }} gap={2}>
+                    <Typography>
+                      - Prepare a website documents such as ER diagrams,
+                      sequence diagrams.
+                    </Typography>
+                    <Typography>
+                      - Developed the back-end of the website that the
+                      organization uses to display employee information and
+                      comprehensive information.
+                    </Typography>
                   </Grid>
                   <Grid item sx={{ textAlign: "justify" }}>
-                    2. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eos optio tempora doloremque sint totam explicabo architecto
-                    iure odio sed accusantium unde iste omnis facere quis
-                    doloribus, itaque blanditiis eum ipsa.
+                    <Typography variant="body2" color="secondary.main">
+                      Tools - Golang, MongoDB, Postman
+                    </Typography>
                   </Grid>
                 </Grid>
               }
@@ -114,8 +125,12 @@ export default function Experience() {
           </Grid>
         </Grid>
         <Grid item xs={12} sm={12} md={8} display={"flex"} gap={3}>
-          <Grid item>
-            <Button variant="contained">2022</Button>
+          <Grid item xs={3} sm={2} display={"flex"} justifyContent={"flex-end"}>
+            <Chip
+              color="success"
+              label="Part time"
+              sx={{ border: "1px solid", borderColor: "secondary.main" }}
+            />
           </Grid>
           <Grid item flex={1}>
             <ExperienceBox
@@ -123,17 +138,24 @@ export default function Experience() {
               subTitle="Developer"
               body={
                 <Grid container gap={2}>
-                  <Grid item sx={{ textAlign: "justify" }}>
-                    1. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eos optio tempora doloremque sint totam explicabo architecto
-                    iure odio sed accusantium unde iste omnis facere quis
-                    doloribus, itaque blanditiis eum ipsa.
+                  <Grid container gap={2} sx={{ textAlign: "justify" }}>
+                    <Typography>
+                      - Developed a website that users can submit ideas for
+                      topics and respond to the posts of others.
+                    </Typography>
+                    <Typography>
+                      - Developed an application that notifies users when
+                      lightning strikes happens nearby. (React Native)
+                    </Typography>
+                    <Typography>
+                      - Developed a website that may notify user when there is a
+                      lightning strike nearby the user’s present location.
+                    </Typography>
                   </Grid>
                   <Grid item sx={{ textAlign: "justify" }}>
-                    2. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eos optio tempora doloremque sint totam explicabo architecto
-                    iure odio sed accusantium unde iste omnis facere quis
-                    doloribus, itaque blanditiis eum ipsa.
+                    <Typography variant="body2" color="secondary.main">
+                      Tools - ReactJs, NodeJs, MySql, Docker
+                    </Typography>
                   </Grid>
                 </Grid>
               }
@@ -141,26 +163,43 @@ export default function Experience() {
           </Grid>
         </Grid>
         <Grid item xs={12} sm={12} md={8} display={"flex"} gap={3}>
-          <Grid item>
-            <Button variant="contained">2022</Button>
+          <Grid item xs={3} sm={2} display={"flex"} justifyContent={"flex-end"}>
+            <Chip
+              color="success"
+              label="June 2023 - Present"
+              sx={{ border: "1px solid", borderColor: "secondary.main" }}
+            />
           </Grid>
           <Grid item flex={1}>
             <ExperienceBox
-              title={"Ubon Microtech Co., Ltd"}
-              subTitle="Developer"
+              title={"Synergy Software Co., Ltd"}
+              subTitle="Full Stack Developer"
               body={
-                <Grid container gap={2}>
-                  <Grid item sx={{ textAlign: "justify" }}>
-                    1. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eos optio tempora doloremque sint totam explicabo architecto
-                    iure odio sed accusantium unde iste omnis facere quis
-                    doloribus, itaque blanditiis eum ipsa.
+                <Grid container gap={4}>
+                  <Grid container sx={{ textAlign: "justify" }}>
+                    <Typography>
+                      - Developed a DCC system that users wishing to book a room
+                      will utilize or office supplies. Some of the system’s
+                      capabilities are device management and user work hours.
+                    </Typography>
+                    <Typography variant="body2" color="secondary.main">
+                      Tools - NextJs, .Net Core C#, Oracle Sql Developer, MUI
+                    </Typography>
                   </Grid>
-                  <Grid item sx={{ textAlign: "justify" }}>
-                    2. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eos optio tempora doloremque sint totam explicabo architecto
-                    iure odio sed accusantium unde iste omnis facere quis
-                    doloribus, itaque blanditiis eum ipsa.
+                  <Grid container sx={{ textAlign: "justify" }}>
+                    <Typography>
+                      - Developed a case file document system (E-DOC system) to
+                      store documents in the required categories, the system has
+                      the ability to create folders and create several divisions
+                      within the document respository to safeguard the
+                      confidentiality of the documents. Additional features of
+                      the system, including as transfer, share, delete and move
+                      files or folders.
+                    </Typography>
+                    <Typography variant="body2" color="secondary.main">
+                      Tools - React, TypeScript .Net Core C#, Oracle Sql
+                      Developer, MUI
+                    </Typography>
                   </Grid>
                 </Grid>
               }
