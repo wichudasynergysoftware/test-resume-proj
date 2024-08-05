@@ -29,7 +29,7 @@ export default function Header() {
         md={4}
         display={"flex"}
         alignItems={"center"}
-        justifyContent={"center"}
+        justifyContent={{ xs: "space-between", sm: "center" }}
         gap={{ xs: 2, sm: 5 }}
         my={{ xs: 2, sm: 0 }}
       >
