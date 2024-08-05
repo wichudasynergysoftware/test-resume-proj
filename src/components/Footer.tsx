@@ -12,7 +12,7 @@ export default function Footer() {
         " Thanks for watching "
       </Typography>
       <Typography variant="h6" fontWeight={700} mt={3}>
-        Are you interested me?
+        Are you interested in me?
       </Typography>
       <Typography variant="h6" fontWeight={700}>
         Contact me
