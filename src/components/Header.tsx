@@ -29,9 +29,13 @@ export default function Header() {
         md={4}
         display={"flex"}
         alignItems={"center"}
-        justifyContent={{ xs: "space-between", sm: "center" }}
+        justifyContent={{
+          xs: "space-between",
+          sm: "space-around",
+          md: "center",
+        }}
         gap={{ xs: 2, sm: 5 }}
-        my={{ xs: 2, sm: 0 }}
+        my={{ xs: 2, sm: 2, md: 0 }}
       >
         <Button
           color="inherit"
@@ -70,7 +74,7 @@ export default function Header() {
       <Grid
         item
         xs={4}
-        display={{ xs: "none", sm: "flex" }}
+        display={{ xs: "none", md: "flex", sm: "none" }}
         alignItems={"center"}
         justifyContent={"right"}
       >
