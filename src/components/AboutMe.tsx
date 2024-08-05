@@ -24,14 +24,25 @@ export default function AboutMe() {
   return (
     <Grid container gap={10}>
       <Grid item xs={12}>
-        <Typography variant="h4" color={"secondary.main"}>
+        <Typography variant="h4" color={"secondary.main"} mb={{ xs: 2, sm: 0 }}>
           About Me
         </Typography>
-        <Grid item mt={2}>
+        <Grid
+          item
+          mt={2}
+          sx={{
+            m: { xs: 0, sm: 7 },
+            bgcolor: "primary.light",
+            borderRadius: 3,
+            p: 5,
+            border: "1px solid",
+            borderColor: "secondary.main",
+          }}
+        >
           <Typography
-            variant="h6"
             sx={{
               textAlign: "justify",
+              fontSize: { xs: 14, sm: 18 },
               // wordBreak: "break-word",
               // hyphens: "auto",
             }}
@@ -59,6 +70,7 @@ export default function AboutMe() {
           sm={6}
           sx={{ borderLeft: "4px solid", borderColor: "secondary.main" }}
           px={2}
+          mb={{ xs: 4, sm: 0 }}
         >
           <Typography variant="h6" color="secondary.main">
             Ubon Ratchathani University
@@ -82,13 +94,14 @@ export default function AboutMe() {
           <Typography>.</Typography>
         </Grid>
       </Grid>
-      <Grid item xs={12}>
-        <Typography variant="h5">My Skills</Typography>
-      </Grid>
       <Grid container gap={1} display={"flex"} justifyContent={"space-between"}>
+        <Grid item xs={12}>
+          <Typography variant="h5">My Skills</Typography>
+        </Grid>
         {mySkills.map((item: any) => (
           <Grid
             item
+            mt={2}
             xs={5.5}
             md={2.8}
             key={item.id}
@@ -140,15 +153,16 @@ export default function AboutMe() {
         ))}
         <Grid item xs={5.5} md={2.8}></Grid>
       </Grid>
-      <Grid item xs={12}>
-        <Typography variant="h5">Other Skills</Typography>
-      </Grid>
       <Grid container gap={1} display={"flex"} justifyContent={"space-between"}>
+        <Grid item xs={12}>
+          <Typography variant="h5">Other Skills</Typography>
+        </Grid>
         {otherSkills.map((item: any) => (
           <Grid
             item
             xs={5.5}
             md={2.8}
+            mt={2}
             key={item.id}
             py={6}
             display={"flex"}
