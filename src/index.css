@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: #31333b;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  /* background-color: #34353a; */
+  /* background: linear-gradient(to bottom, #f38274, #d75d7e, #6a569b); */
+}
