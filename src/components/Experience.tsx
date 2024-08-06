@@ -10,7 +10,7 @@ const ExperienceBox = ({ title, subTitle, body }: Props) => {
   return (
     <Box
       sx={{
-        px: 2,
+        px: { xs: 0, sm: 2 },
         position: "relative",
         mb: 10,
       }}
@@ -31,6 +31,7 @@ const ExperienceBox = ({ title, subTitle, body }: Props) => {
           top: 0,
           left: -5,
           width: 4,
+          display: { xs: "none", sm: "block" },
         }}
       />
       {body}
@@ -92,10 +93,12 @@ export default function Experience() {
               body={
                 <Grid container gap={2}>
                   <Grid item sx={{ textAlign: "justify" }}>
-                    - Developed a website for a clinic management system that
-                    can handle patient data, prescription data, income data and
-                    expense data. Details on patient appoinments patients
-                    recieving therapy keeping medical records among them.
+                    <Typography fontSize={{ xs: 14, sm: 16 }}>
+                      - Developed a website for a clinic management system that
+                      can handle patient data, prescription data, income data
+                      and expense data. Details on patient appoinments patients
+                      recieving therapy keeping medical records among them.
+                    </Typography>
                   </Grid>
                   <Grid item sx={{ textAlign: "justify" }}>
                     <Typography variant="body2" color="secondary.main">
@@ -140,11 +143,11 @@ export default function Experience() {
               body={
                 <Grid container gap={2}>
                   <Grid container sx={{ textAlign: "justify" }} gap={2}>
-                    <Typography>
+                    <Typography fontSize={{ xs: 14, sm: 16 }}>
                       - Prepare a website documents such as ER diagrams,
                       sequence diagrams.
                     </Typography>
-                    <Typography>
+                    <Typography fontSize={{ xs: 14, sm: 16 }}>
                       - Developed the back-end of the website that the
                       organization uses to display employee information and
                       comprehensive information.
@@ -193,15 +196,15 @@ export default function Experience() {
               body={
                 <Grid container gap={2}>
                   <Grid container gap={2} sx={{ textAlign: "justify" }}>
-                    <Typography>
+                    <Typography fontSize={{ xs: 14, sm: 16 }}>
                       - Developed a website that users can submit ideas for
                       topics and respond to the posts of others.
                     </Typography>
-                    <Typography>
+                    <Typography fontSize={{ xs: 14, sm: 16 }}>
                       - Developed an application that notifies users when
                       lightning strikes happens nearby. (React Native)
                     </Typography>
-                    <Typography>
+                    <Typography fontSize={{ xs: 14, sm: 16 }}>
                       - Developed a website that may notify user when there is a
                       lightning strike nearby the user’s present location.
                     </Typography>
@@ -249,7 +252,7 @@ export default function Experience() {
               body={
                 <Grid container gap={4}>
                   <Grid container sx={{ textAlign: "justify" }}>
-                    <Typography>
+                    <Typography fontSize={{ xs: 14, sm: 16 }}>
                       - Developed a DCC system that users wishing to book a room
                       will utilize or office supplies. Some of the system’s
                       capabilities are device management and user work hours.
@@ -259,7 +262,7 @@ export default function Experience() {
                     </Typography>
                   </Grid>
                   <Grid container sx={{ textAlign: "justify" }}>
-                    <Typography>
+                    <Typography fontSize={{ xs: 14, sm: 16 }}>
                       - Developed a case file document system (E-DOC system) to
                       store documents in the required categories, the system has
                       the ability to create folders and create several divisions

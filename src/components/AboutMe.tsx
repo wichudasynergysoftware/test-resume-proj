@@ -1,23 +1,23 @@
 import { Box, Grid, Typography } from "@mui/material";
 
 const mySkills = [
-  { id: 1, name: "ReactJs", icon: "react", size: 150 },
-  { id: 2, name: "NextJs", icon: "nextjs", size: 180 },
-  { id: 3, name: "Vue", icon: "vue", size: 320 },
-  { id: 4, name: "HTML&CSS", icon: "html", size: 220 },
-  { id: 5, name: "Material UI", icon: "mui", size: 150 },
-  { id: 6, name: "TypeScript", icon: "typescript", size: 160 },
-  { id: 7, name: "SQL", icon: "sql", size: 200 },
+  { id: 1, name: "ReactJs", icon: "react", size: 130 },
+  { id: 2, name: "NextJs", icon: "nextjs", size: 150 },
+  { id: 3, name: "Vue", icon: "vue", size: 150 },
+  { id: 4, name: "HTML&CSS", icon: "html", size: 180 },
+  { id: 5, name: "Material UI", icon: "mui", size: 130 },
+  { id: 6, name: "TypeScript", icon: "typescript", size: 130 },
+  { id: 7, name: "SQL", icon: "sql", size: 160 },
   { id: 8, name: ".Net core C#", icon: "netcore", size: 150 },
 ];
 
 const otherSkills = [
-  { id: 1, name: "Oracle", icon: "oracle", size: 220 },
+  { id: 1, name: "Oracle", icon: "oracle", size: 180 },
   { id: 2, name: "MongoDB", icon: "mongodb", size: 120 },
-  { id: 3, name: "MySQL", icon: "mysql", size: 160 },
-  { id: 4, name: "Github", icon: "github", size: 220 },
-  { id: 5, name: "Docker", icon: "docker", size: 180 },
-  { id: 6, name: "Figma", icon: "figma", size: 100 },
+  { id: 3, name: "MySQL", icon: "mysql", size: 140 },
+  { id: 4, name: "Github", icon: "github", size: 170 },
+  { id: 5, name: "Docker", icon: "docker", size: 170 },
+  { id: 6, name: "Figma", icon: "figma", size: 90 },
 ];
 
 export default function AboutMe() {
