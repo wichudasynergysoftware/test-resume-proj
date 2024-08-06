@@ -1,5 +1,6 @@
-import { Button, Grid, Tooltip, Typography } from "@mui/material";
+import { Button, Grid, Tooltip } from "@mui/material";
 import ErrorRoundedIcon from "@mui/icons-material/ErrorRounded";
+import Logo from "./Logo";
 
 export default function Header() {
   const handleScroll = (sectionId: string) => {
@@ -12,16 +13,19 @@ export default function Header() {
   return (
     <Grid
       container
-      sx={{ display: "flex", justifyContent: "space-between", py: 4 }}
+      sx={{
+        display: "flex",
+        justifyContent: "space-between",
+        py: { xs: 0, sm: 2, md: 4 },
+      }}
     >
-      <Grid item xs={12} md={4}>
-        <Typography
-          variant="h3"
-          fontWeight={700}
-          textAlign={{ xs: "center", md: "left" }}
-        >
-          Logo
-        </Typography>
+      <Grid
+        item
+        xs={12}
+        md={4}
+        display={{ xs: "none", sm: "none", md: "flex" }}
+      >
+        <Logo />
       </Grid>
       <Grid
         item

@@ -64,7 +64,8 @@ export default function Experience() {
           item
           xs={12}
           sm={12}
-          md={8}
+          md={12}
+          lg={8}
           gap={3}
           display={"flex"}
           flexDirection={{ xs: "column", sm: "row" }}
@@ -72,7 +73,7 @@ export default function Experience() {
           <Grid
             item
             xs={12}
-            sm={2}
+            sm={2.5}
             display={"flex"}
             justifyContent={{ xs: "flex-start", sm: "flex-end" }}
           >
@@ -114,7 +115,8 @@ export default function Experience() {
           item
           xs={12}
           sm={12}
-          md={8}
+          md={12}
+          lg={8}
           gap={3}
           display={"flex"}
           flexDirection={{ xs: "column", sm: "row" }}
@@ -122,7 +124,7 @@ export default function Experience() {
           <Grid
             item
             xs={12}
-            sm={2}
+            sm={2.5}
             display={"flex"}
             justifyContent={{ xs: "flex-start", sm: "flex-end" }}
           >
@@ -167,7 +169,8 @@ export default function Experience() {
           item
           xs={12}
           sm={12}
-          md={8}
+          md={12}
+          lg={8}
           gap={3}
           display={"flex"}
           flexDirection={{ xs: "column", sm: "row" }}
@@ -175,7 +178,7 @@ export default function Experience() {
           <Grid
             item
             xs={12}
-            sm={2}
+            sm={2.5}
             display={"flex"}
             justifyContent={{ xs: "flex-start", sm: "flex-end" }}
           >
@@ -223,7 +226,8 @@ export default function Experience() {
           item
           xs={12}
           sm={12}
-          md={8}
+          md={12}
+          lg={8}
           gap={3}
           display={"flex"}
           flexDirection={{ xs: "column", sm: "row" }}
@@ -231,7 +235,7 @@ export default function Experience() {
           <Grid
             item
             xs={12}
-            sm={2}
+            sm={2.5}
             display={"flex"}
             justifyContent={{ xs: "flex-start", sm: "flex-end" }}
           >

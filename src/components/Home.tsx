@@ -8,7 +8,7 @@ import Experience from "./Experience";
 
 export default function Home() {
   return (
-    <Grid container gap={{ xs: 5, sm: 10 }}>
+    <Grid container gap={10}>
       <Container maxWidth="xl">
         <Grid container gap={{ xs: 5, sm: 20 }}>
           <Header />

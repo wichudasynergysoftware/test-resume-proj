@@ -3,10 +3,10 @@ import { Box, Grid, Typography } from "@mui/material";
 const mySkills = [
   { id: 1, name: "ReactJs", icon: "react", size: 130 },
   { id: 2, name: "NextJs", icon: "nextjs", size: 150 },
-  { id: 3, name: "Vue", icon: "vue", size: 150 },
+  { id: 3, name: "Vue", icon: "vue", size: 120 },
   { id: 4, name: "HTML&CSS", icon: "html", size: 180 },
-  { id: 5, name: "Material UI", icon: "mui", size: 130 },
-  { id: 6, name: "TypeScript", icon: "typescript", size: 130 },
+  { id: 5, name: "Material UI", icon: "mui", size: 110 },
+  { id: 6, name: "TypeScript", icon: "typescript", size: 110 },
   { id: 7, name: "SQL", icon: "sql", size: 160 },
   { id: 8, name: ".Net core C#", icon: "netcore", size: 150 },
 ];
