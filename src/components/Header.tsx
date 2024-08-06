@@ -1,4 +1,4 @@
-import { Button, Grid, Tooltip } from "@mui/material";
+import { Box, Button, Grid, Tooltip, Typography } from "@mui/material";
 import ErrorRoundedIcon from "@mui/icons-material/ErrorRounded";
 import Logo from "./Logo";
 
@@ -16,16 +16,26 @@ export default function Header() {
       sx={{
         display: "flex",
         justifyContent: "space-between",
-        py: { xs: 0, sm: 2, md: 4 },
+        py: 4,
       }}
     >
       <Grid
         item
         xs={12}
         md={4}
-        display={{ xs: "none", sm: "none", md: "flex" }}
+        display={"flex"}
+        alignItems={"center"}
+        justifyContent={{ xs: "center", md: "flex-start" }}
       >
-        <Logo />
+        <Typography
+          variant="h2"
+          sx={{ display: { xs: "flex", sm: "flex", md: "none" } }}
+        >
+          WICHUDA
+        </Typography>
+        <Box display={{ xs: "none", sm: "none", md: "flex" }}>
+          <Logo />
+        </Box>
       </Grid>
       <Grid
         item
