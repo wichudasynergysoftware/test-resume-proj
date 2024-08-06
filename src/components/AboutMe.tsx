@@ -1,23 +1,23 @@
 import { Box, Grid, Typography } from "@mui/material";
 
 const mySkills = [
-  { id: 1, name: "ReactJs", icon: "react" },
-  { id: 2, name: "NextJs", icon: "nextjs" },
-  { id: 3, name: "Vue", icon: "vue" },
-  { id: 4, name: "HTML&CSS", icon: "html" },
-  { id: 5, name: "Material UI", icon: "mui" },
-  { id: 6, name: "TypeScript", icon: "typescript" },
-  { id: 7, name: "SQL", icon: "sql" },
-  { id: 8, name: ".Net core C#", icon: "netcore" },
+  { id: 1, name: "ReactJs", icon: "react", size: 150 },
+  { id: 2, name: "NextJs", icon: "nextjs", size: 180 },
+  { id: 3, name: "Vue", icon: "vue", size: 320 },
+  { id: 4, name: "HTML&CSS", icon: "html", size: 220 },
+  { id: 5, name: "Material UI", icon: "mui", size: 150 },
+  { id: 6, name: "TypeScript", icon: "typescript", size: 160 },
+  { id: 7, name: "SQL", icon: "sql", size: 200 },
+  { id: 8, name: ".Net core C#", icon: "netcore", size: 150 },
 ];
 
 const otherSkills = [
-  { id: 1, name: "Oracle", icon: "oracle" },
-  { id: 2, name: "MongoDB", icon: "mongodb" },
-  { id: 3, name: "MySQL", icon: "mysql" },
-  { id: 4, name: "Github", icon: "github" },
-  { id: 5, name: "Docker", icon: "docker" },
-  { id: 6, name: "Figma", icon: "figma" },
+  { id: 1, name: "Oracle", icon: "oracle", size: 220 },
+  { id: 2, name: "MongoDB", icon: "mongodb", size: 120 },
+  { id: 3, name: "MySQL", icon: "mysql", size: 160 },
+  { id: 4, name: "Github", icon: "github", size: 220 },
+  { id: 5, name: "Docker", icon: "docker", size: 180 },
+  { id: 6, name: "Figma", icon: "figma", size: 100 },
 ];
 
 export default function AboutMe() {
@@ -126,11 +126,7 @@ export default function AboutMe() {
           >
             <Box
               sx={{
-                borderRadius: 50,
-                bgcolor: "background.paper",
-                width: 100,
-                height: 100,
-                overflow: "hidden",
+                width: item.size,
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
@@ -185,11 +181,7 @@ export default function AboutMe() {
           >
             <Box
               sx={{
-                borderRadius: 50,
-                bgcolor: "background.paper",
-                width: 100,
-                height: 100,
-                overflow: "hidden",
+                width: item.size,
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",

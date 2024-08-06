@@ -65,7 +65,7 @@ export default function Introduction() {
           position: "relative",
           display: "flex",
           justifyContent: { xs: "center", sm: "center", lg: "flex-end" },
-          borderRight: "2px solid",
+          borderRight: { xs: "none", sm: "2px solid" },
           borderColor: "info.main",
         }}
       >

@@ -55,16 +55,34 @@ export default function Experience() {
         item
         flex={1}
         display={"flex"}
-        flexDirection={"column"}
+        flexDirection={"column-reverse"}
         alignItems={"center"}
         justifyContent={"center"}
       >
-        <Grid item xs={12} sm={12} md={8} display={"flex"} gap={3}>
-          <Grid item xs={3} sm={2} display={"flex"} justifyContent={"flex-end"}>
+        <Grid
+          item
+          xs={12}
+          sm={12}
+          md={8}
+          gap={3}
+          display={"flex"}
+          flexDirection={{ xs: "column", sm: "row" }}
+        >
+          <Grid
+            item
+            xs={12}
+            sm={2}
+            display={"flex"}
+            justifyContent={{ xs: "flex-start", sm: "flex-end" }}
+          >
             <Chip
               color="success"
               label="2022"
-              sx={{ border: "1px solid", borderColor: "secondary.main" }}
+              sx={{
+                border: "1px solid",
+                borderColor: "secondary.main",
+                width: "100%",
+              }}
             />
           </Grid>
           <Grid item flex={1}>
@@ -89,12 +107,30 @@ export default function Experience() {
             />
           </Grid>
         </Grid>
-        <Grid item xs={12} sm={12} md={8} display={"flex"} gap={3}>
-          <Grid item xs={3} sm={2} display={"flex"} justifyContent={"flex-end"}>
+        <Grid
+          item
+          xs={12}
+          sm={12}
+          md={8}
+          gap={3}
+          display={"flex"}
+          flexDirection={{ xs: "column", sm: "row" }}
+        >
+          <Grid
+            item
+            xs={12}
+            sm={2}
+            display={"flex"}
+            justifyContent={{ xs: "flex-start", sm: "flex-end" }}
+          >
             <Chip
               color="success"
               label="2022 (4 months)"
-              sx={{ border: "1px solid", borderColor: "secondary.main" }}
+              sx={{
+                border: "1px solid",
+                borderColor: "secondary.main",
+                width: "100%",
+              }}
             />
           </Grid>
           <Grid item flex={1}>
@@ -124,12 +160,30 @@ export default function Experience() {
             />
           </Grid>
         </Grid>
-        <Grid item xs={12} sm={12} md={8} display={"flex"} gap={3}>
-          <Grid item xs={3} sm={2} display={"flex"} justifyContent={"flex-end"}>
+        <Grid
+          item
+          xs={12}
+          sm={12}
+          md={8}
+          gap={3}
+          display={"flex"}
+          flexDirection={{ xs: "column", sm: "row" }}
+        >
+          <Grid
+            item
+            xs={12}
+            sm={2}
+            display={"flex"}
+            justifyContent={{ xs: "flex-start", sm: "flex-end" }}
+          >
             <Chip
               color="success"
               label="Part time"
-              sx={{ border: "1px solid", borderColor: "secondary.main" }}
+              sx={{
+                border: "1px solid",
+                borderColor: "secondary.main",
+                width: "100%",
+              }}
             />
           </Grid>
           <Grid item flex={1}>
@@ -162,12 +216,30 @@ export default function Experience() {
             />
           </Grid>
         </Grid>
-        <Grid item xs={12} sm={12} md={8} display={"flex"} gap={3}>
-          <Grid item xs={3} sm={2} display={"flex"} justifyContent={"flex-end"}>
+        <Grid
+          item
+          xs={12}
+          sm={12}
+          md={8}
+          gap={3}
+          display={"flex"}
+          flexDirection={{ xs: "column", sm: "row" }}
+        >
+          <Grid
+            item
+            xs={12}
+            sm={2}
+            display={"flex"}
+            justifyContent={{ xs: "flex-start", sm: "flex-end" }}
+          >
             <Chip
               color="success"
               label="June 2023 - Present"
-              sx={{ border: "1px solid", borderColor: "secondary.main" }}
+              sx={{
+                border: "1px solid",
+                borderColor: "secondary.main",
+                width: "100%",
+              }}
             />
           </Grid>
           <Grid item flex={1}>
